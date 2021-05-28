@@ -10,9 +10,9 @@ from django.contrib.auth.views import LoginView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login
+from django.contrib import messages
 
 from django.urls import reverse_lazy
-
 from .models import Task
 
 # Create your views here.
